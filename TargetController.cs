@@ -26,12 +26,6 @@ public class TargetController : MonoBehaviour
         }
     }
 
-    // public void OnCollisionEnter(Collision col) {
-    //     if (col.gameObject.tag == "basket") {
-    //         Destroy(this.gameObject);
-    //     }
-    // }
-
     // called when glove touches plate
     public void OnTriggerEnter(Collider col) {
         // if we haven't spawned a new plate yet and the plate has been spawned for at least 50 frames
